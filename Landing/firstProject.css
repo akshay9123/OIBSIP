@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.parentdiv{
+    height: 100vh;
+    width: 100%;
+    /* background-color: pink; */
+    font-family: sans-serif;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url('Sand\ and\ Sea\ Photo\ Beach\ Desktop\ Wallpaper.png');
+    /* image credit goes to :- https://www.canva.com/templates/EADaoSkshhk-sand-and-sea-photo-beach-desktop-wallpaper/*/
+    background-size: cover;
+}
+.navdiv{
+    height: 7%;
+    width: 100%;
+    color: white; 
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+.logodiv{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.item{
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    align-items: center;
+    
+}
+.registerdiv a{
+    background: rgb(201, 61, 61);
+    border-radius: 8px;
+}
+
+.bodydiv{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+
+.bodydiv span{
+    font-size: x-large;
+
+}
+
+.bodydiv h1{
+    font-size: 3.5em;
+}
+
+.bodydiv a{
+    background-color: rgb(201, 61, 61);
+    padding: 10px 20px;
+    /* letter-spacing: 5px; */
+    border-radius: 12px;
+}
+.bodydiv a:hover{
+    background-color: yellowgreen;
+}
+.registerdiv a:hover{
+    background-color: #FF4500;
+}
+.item a:hover{
+    background-color: #FF4500;
+    border-radius: 8px;
+}
+.logodiv h2{
+    color: burlywood;
+    margin-top: 40px;
+}
+
+.bodydiv span{
+    font-size: 2.95em;
+    font-weight: bold;
+}
+.footerdiv{
+    /* background-color: aliceblue; */
+    margin-top: 40%;
+    
+    height: 7%;
+    width: 100%;
+    color: burlywood; 
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+
+}
